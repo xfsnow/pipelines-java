@@ -47,5 +47,28 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
-	
+  <distributionManagement>
+    <repository>
+      <id>netmyth</id>
+      <url>https://pkgs.dev.azure.com/netmyth/_packaging/netmyth/maven/v1</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </distributionManagement>
+  <repositories>
+    <repository>
+      <id>netmyth</id>
+      <url>https://pkgs.dev.azure.com/netmyth/_packaging/netmyth/maven/v1</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>	
 </project>
